@@ -42,11 +42,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: './sidebars.js'
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+         
         },
         blog: {
           showReadingTime: true,
@@ -104,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'Plans',
-                to: '/docs/intro',
+                to: '/docs/tutorial-basics/Choose-your-plan',
               },
             ],
           },
@@ -112,34 +111,22 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Youtube',
+                href: 'https://youtube.com/@akashiktarot',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/aakashik_tarot/',
               },
             ],
           },
+          
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,
