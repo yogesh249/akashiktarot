@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Welcome to Akashik Tarot',
-  tagline: 'Unlock Your Destiny with Insightful Astrology – Guidance for Life’s JourneyDinosaurs are cool',
+  tagline: 'Unlock Your Destiny with Insightful Astrology – Guidance for Life’s Journey',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Akashik Tarot',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -86,7 +86,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Plans',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -103,7 +103,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Plans',
                 to: '/docs/intro',
               },
             ],
